@@ -22,20 +22,9 @@ The goal of this project is to predict the median house value for California dis
 
 ## 🛠️ Installation & Usage
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/KULLANICI_ADIN/REPO_ISMI.git](https://github.com/KULLANICI_ADIN/REPO_ISMI.git)
-    cd REPO_ISMI
-    ```
-
-2.  **Install dependencies:**
+  **Install dependencies:**
     ```bash
     pip install pandas numpy matplotlib scikit-learn
-    ```
-
-3.  **Run the analysis:**
-    ```bash
-    python main.py
     ```
 
 ## 📊 Results Summary
