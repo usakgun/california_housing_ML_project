@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression, Ridge, Lasso
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-file_path = os.path.join(script_dir, 'housing (1).csv')
+file_path = os.path.join(script_dir, 'housing.csv')
 
 df = pd.read_csv(file_path)
 
@@ -145,4 +145,5 @@ print(f"Best Ridge Alpha: {alphas[best_ridge_idx]:.4f}")
 print(f"Mean MSE: {ridge_errors[best_ridge_idx]:.2f} (Std: {ridge_std[best_ridge_idx]:.2f})")
 
 print(f"\nBest Lasso Alpha: {alphas[best_lasso_idx]:.4f}")
+
 print(f"Mean MSE: {lasso_errors[best_lasso_idx]:.2f} (Std: {lasso_std[best_lasso_idx]:.2f})")
