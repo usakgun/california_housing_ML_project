@@ -38,6 +38,3 @@ This project was developed with specific constraints to demonstrate understandin
 * No use of ready-made metric functions (calculations are done manually).
 * Specific data splitting ratios.
 * Manual implementation of loops for feature analysis.
-
----
-*Machine Learning & Pattern Recognition Project*
